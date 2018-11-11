@@ -36,6 +36,7 @@ while(isRacing) {
 	robot[i].move(r);
 	if (robot[i].getY() < 0) {
 		isRacing = false; 
+		System.out.println("And the winner is " + robot[i] + "! Hooray! ");
 	}
 	
 	}	
